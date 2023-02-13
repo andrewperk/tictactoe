@@ -12,6 +12,7 @@
 		7D8043AE299AD0A50044C71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8043AD299AD0A50044C71A /* Assets.xcassets */; };
 		7D8043B1299AD0A50044C71A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8043B0299AD0A50044C71A /* Preview Assets.xcassets */; };
 		7D8043B8299AD0DA0044C71A /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8043B7299AD0DA0044C71A /* Cell.swift */; };
+		7D8043BA299AD4710044C71A /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8043B9299AD4710044C71A /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7D8043AD299AD0A50044C71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D8043B0299AD0A50044C71A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D8043B7299AD0DA0044C71A /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		7D8043B9299AD4710044C71A /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				7D8043A9299AD0A40044C71A /* tictactoeApp.swift */,
 				7D8043AB299AD0A40044C71A /* ContentView.swift */,
+				7D8043B9299AD4710044C71A /* GameState.swift */,
 				7D8043B7299AD0DA0044C71A /* Cell.swift */,
 				7D8043AD299AD0A50044C71A /* Assets.xcassets */,
 				7D8043AF299AD0A50044C71A /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8043AC299AD0A40044C71A /* ContentView.swift in Sources */,
+				7D8043BA299AD4710044C71A /* GameState.swift in Sources */,
 				7D8043AA299AD0A40044C71A /* tictactoeApp.swift in Sources */,
 				7D8043B8299AD0DA0044C71A /* Cell.swift in Sources */,
 			);
