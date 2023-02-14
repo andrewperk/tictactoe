@@ -14,9 +14,11 @@ struct ContentView: View {
         let borderSize = CGFloat(5)
         
         VStack(spacing: borderSize) {
+            // Create 3 rows
             ForEach(0...2, id: \.self) {
                 row in
                 HStack(spacing: borderSize) {
+                    // Create 3 columns
                     ForEach(0...2, id: \.self) {
                         column in
                         
@@ -37,6 +39,15 @@ struct ContentView: View {
             }
         }
         .background(Color.black)
+        .padding()
+        .alert(isPresented: $gameState.showAlert) {
+            Alert(
+                title: Text(gameState.alertMessage),
+                dismissButton: .default(Text("Okay")) {
+                    gameState.resetBoard()
+                }
+            )
+        }
     }
 }
 
